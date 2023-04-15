@@ -1,2 +1,2 @@
-public class Checking extends Account implements IRate {
+public class Checking extends Account {
 }

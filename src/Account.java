@@ -4,7 +4,7 @@ public abstract class Account implements IRate {
     String sSN;
     double balance;
     static int index = 10000;
-    String accountNubmer;
+    String accountNumber;
     double rate;
 
     public Account(String name, String ssN, double initDeposit) {
@@ -14,7 +14,7 @@ public abstract class Account implements IRate {
         System.out.println("NAME: " + name + " SSN: " + ssN + " BALANCE: $" + balance);
 
         index++;
-        this.accountNubmer = setAccountNumber();
+        this.accountNumber = setAccountNumber();
     }
 
     private String setAccountNumber() {
